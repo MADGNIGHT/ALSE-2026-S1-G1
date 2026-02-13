@@ -1,0 +1,22 @@
+-rw-r--r--  1 Miguel  staff     0 Jan 24 09:18 another_file.txt
+-rwxrwxrwx@ 1 Miguel  staff  5289 Jan 28  2025 aux_files/B45/B45S162_wp_b45_nv4_nv6 lb.txt
+-rwxrwxrwx@ 1 Miguel  staff  5225 Jan 28  2025 aux_files/B45/B45S163_wp_b45_nv9_nv7 lb.txt
+-rwxrwxrwx@ 1 Miguel  staff  5296 Jan 28  2025 aux_files/B45/B45S164_wp_b45_nv10_nv12 lb.txt
+-rwxrwxrwx@ 1 Miguel  staff  2593 Jan 28  2025 aux_files/B45/B45S165_wp_lbn15n13.txt
+-rwxrwxrwx@ 1 Miguel  staff  5321 Jan 28  2025 aux_files/B45/B45S166_wp_b45_nv16_18b.txt
+-rwxrwxrwx@ 1 Miguel  staff  2614 Jan 28  2025 aux_files/B45/B45S62wp_b45_lan4n6.txt
+-rwxrwxrwx@ 1 Miguel  staff  5281 Jan 28  2025 aux_files/B45/B45S63_wp_b45_nv9_nv7 la.txt
+-rwxrwxrwx@ 1 Miguel  staff  5307 Jan 28  2025 aux_files/B45/B45S64_wp_b45_nv10_nv12 la.txt
+-rwxrwxrwx@ 1 Miguel  staff  5320 Jan 28  2025 aux_files/B45/B45S65_wp_b45_nv15_nv13a.txt
+-rwxrwxrwx@ 1 Miguel  staff  5285 Jan 28  2025 aux_files/B45/B45S66_wp_b45_nv16_nv18.txt
+-rwxrwxrwx@ 1 Miguel  staff  2604 Jan 28  2025 aux_files/B45/B45s161wp_45_lbn3n1.txt
+-rwxrwxrwx@ 1 Miguel  staff  2611 Jan 28  2025 aux_files/B45/B45s61wp_b45_lan3n1.txt
+-rwxrwxrwx@ 1 Miguel  staff  4369 Jan 27  2025 aux_files/B56/B56S154_wp_b54lb_n4n6.txt
+-rwxrwxrwx@ 1 Miguel  staff  5450 Jan 27  2025 aux_files/B56/B56S155_wp_b56lbn9n7.txt
+-rwxrwxrwx@ 1 Miguel  staff  5464 Jan 27  2025 aux_files/B56/B56S156_wp_b56lbn10n13.txt
+-rwxrwxrwx@ 1 Miguel  staff  5319 Jan 27  2025 aux_files/B56/B56S55_wp_b56lan9n7.txt
+-rwxrwxrwx@ 1 Miguel  staff  7541 Jan 27  2025 aux_files/B56/B56S56_wp_b56lan10n13.txt
+-rwxrwxrwx@ 1 Miguel  staff  1793 Jan 27  2025 aux_files/B56/B56S57_wp_b56lan10n13.txt
+-rwxrwxrwx@ 1 Miguel  staff   883 Jan 27  2025 aux_files/B56/B56s157_wp_b56_lbn13.txt
+-rw-r--r--  1 Miguel  staff    97 Jan 30 07:43 csv_files.txt
+-rw-r--r--@ 1 Miguel  staff    87 Jan 30 07:46 pdf_files.txt
