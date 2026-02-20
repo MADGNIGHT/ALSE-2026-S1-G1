@@ -29,7 +29,7 @@ int main()
     {
         if (num == 1)
         {
-            std::cout << "Tu numero ya es 1, se hizo " << counter << " interacciones para llegar a el. Proceso terminado";
+            std::cout << "Tu numero ya es 1, se hicieron " << counter << " interacciones para llegar a él. Proceso terminado";
             flag2 = false;
         }
         else if (num % 2 == 0)
