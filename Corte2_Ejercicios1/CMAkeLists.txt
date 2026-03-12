@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(Corte2_Ejercicios1)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(armstrong armstrong.cpp)
+add_executable(hamming hamming.cpp)
+add_executable(space_age space_age.cpp)
+add_executable(parking_system design_PS.cpp)
