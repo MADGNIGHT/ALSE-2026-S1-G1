@@ -1,0 +1,112 @@
+\doxysection{Authentication\+Manager Class Reference}
+\hypertarget{class_authentication_manager}{}\label{class_authentication_manager}\index{AuthenticationManager@{AuthenticationManager}}
+
+
+Gestiona tokens con tiempo de vida limitado (TTL).  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_authentication_manager_aeb0df965f472442a9ee6d5c79c232f66}{Authentication\+Manager}} (int time\+To\+Live)
+\begin{DoxyCompactList}\small\item\em Constructor del gestor. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_authentication_manager_ad75515bc748c2f1ac84b35ddd6f6647e}{generate}} (string token\+Id, int current\+Time)
+\begin{DoxyCompactList}\small\item\em Genera un nuevo token. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_authentication_manager_a75a134790d7ac48e093ebbafce0ad507}{renew}} (string token\+Id, int current\+Time)
+\begin{DoxyCompactList}\small\item\em Renueva un token si no ha expirado. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{class_authentication_manager_abbafd118c643b2b699f50735d470b4e1}{count\+Unexpired\+Tokens}} (int current\+Time)
+\begin{DoxyCompactList}\small\item\em Cuenta los tokens no expirados. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_authentication_manager_a63130d87203baac6565c1d8595cce36b}\label{class_authentication_manager_a63130d87203baac6565c1d8595cce36b} 
+int {\bfseries time\+To\+Live}
+\item 
+\Hypertarget{class_authentication_manager_a92b61c51bcbf9337fcb5431b531acd1e}\label{class_authentication_manager_a92b61c51bcbf9337fcb5431b531acd1e} 
+unordered\+\_\+map$<$ string, int $>$ {\bfseries tokens}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Gestiona tokens con tiempo de vida limitado (TTL). 
+
+\label{doc-constructors}
+\Hypertarget{class_authentication_manager_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_authentication_manager_aeb0df965f472442a9ee6d5c79c232f66}\index{AuthenticationManager@{AuthenticationManager}!AuthenticationManager@{AuthenticationManager}}
+\index{AuthenticationManager@{AuthenticationManager}!AuthenticationManager@{AuthenticationManager}}
+\doxysubsubsection{\texorpdfstring{AuthenticationManager()}{AuthenticationManager()}}
+{\footnotesize\ttfamily \label{class_authentication_manager_aeb0df965f472442a9ee6d5c79c232f66} 
+Authentication\+Manager::\+\+Authentication\+Manager (\begin{DoxyParamCaption}\item[{int}]{time\+To\+Live}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor del gestor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time\+To\+Live} & Tiempo de vida de los tokens. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_authentication_manager_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_authentication_manager_abbafd118c643b2b699f50735d470b4e1}\index{AuthenticationManager@{AuthenticationManager}!countUnexpiredTokens@{countUnexpiredTokens}}
+\index{countUnexpiredTokens@{countUnexpiredTokens}!AuthenticationManager@{AuthenticationManager}}
+\doxysubsubsection{\texorpdfstring{countUnexpiredTokens()}{countUnexpiredTokens()}}
+{\footnotesize\ttfamily \label{class_authentication_manager_abbafd118c643b2b699f50735d470b4e1} 
+int Authentication\+Manager::\+count\+Unexpired\+Tokens (\begin{DoxyParamCaption}\item[{int}]{current\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Cuenta los tokens no expirados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+Time} & Tiempo actual. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Número de tokens válidos. 
+\end{DoxyReturn}
+\Hypertarget{class_authentication_manager_ad75515bc748c2f1ac84b35ddd6f6647e}\index{AuthenticationManager@{AuthenticationManager}!generate@{generate}}
+\index{generate@{generate}!AuthenticationManager@{AuthenticationManager}}
+\doxysubsubsection{\texorpdfstring{generate()}{generate()}}
+{\footnotesize\ttfamily \label{class_authentication_manager_ad75515bc748c2f1ac84b35ddd6f6647e} 
+void Authentication\+Manager::\+generate (\begin{DoxyParamCaption}\item[{string}]{token\+Id}{, }\item[{int}]{current\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Genera un nuevo token. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em token\+Id} & Identificador del token. \\
+\hline
+{\em current\+Time} & Tiempo actual. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_authentication_manager_a75a134790d7ac48e093ebbafce0ad507}\index{AuthenticationManager@{AuthenticationManager}!renew@{renew}}
+\index{renew@{renew}!AuthenticationManager@{AuthenticationManager}}
+\doxysubsubsection{\texorpdfstring{renew()}{renew()}}
+{\footnotesize\ttfamily \label{class_authentication_manager_a75a134790d7ac48e093ebbafce0ad507} 
+void Authentication\+Manager::\+renew (\begin{DoxyParamCaption}\item[{string}]{token\+Id}{, }\item[{int}]{current\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Renueva un token si no ha expirado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em token\+Id} & Identificador del token. \\
+\hline
+{\em current\+Time} & Tiempo actual. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{authentication_8cpp}{authentication.\+cpp}}\end{DoxyCompactItemize}

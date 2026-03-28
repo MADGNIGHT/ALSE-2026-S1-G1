@@ -1,0 +1,76 @@
+\doxysection{Exam\+Tracker Class Reference}
+\hypertarget{class_exam_tracker}{}\label{class_exam_tracker}\index{ExamTracker@{ExamTracker}}
+
+
+Permite registrar puntajes y consultar sumas en rangos de tiempo.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_exam_tracker_ad677bf7042b5138fdbb057a268a009c2}\label{class_exam_tracker_ad677bf7042b5138fdbb057a268a009c2} 
+{\bfseries Exam\+Tracker} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_exam_tracker_a242be11afa865b862313d58e5a746234}{record}} (int time, int score)
+\begin{DoxyCompactList}\small\item\em Registra un puntaje en un tiempo dado. \end{DoxyCompactList}\item 
+long long \doxymbox{\hyperlink{class_exam_tracker_aca11b80e9c5c760409f9db8eabba45c7}{total\+Score}} (int start\+Time, int end\+Time)
+\begin{DoxyCompactList}\small\item\em Calcula el puntaje total en un rango de tiempo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_exam_tracker_abc2556ea9b1bb8c203cde734938dedae}\label{class_exam_tracker_abc2556ea9b1bb8c203cde734938dedae} 
+vector$<$ int $>$ {\bfseries times}
+\item 
+\Hypertarget{class_exam_tracker_a6f440074852625f822e29fa2c01123e0}\label{class_exam_tracker_a6f440074852625f822e29fa2c01123e0} 
+vector$<$ int $>$ {\bfseries scores\+\_\+saved}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Permite registrar puntajes y consultar sumas en rangos de tiempo. 
+
+\label{doc-func-members}
+\Hypertarget{class_exam_tracker_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_exam_tracker_a242be11afa865b862313d58e5a746234}\index{ExamTracker@{ExamTracker}!record@{record}}
+\index{record@{record}!ExamTracker@{ExamTracker}}
+\doxysubsubsection{\texorpdfstring{record()}{record()}}
+{\footnotesize\ttfamily \label{class_exam_tracker_a242be11afa865b862313d58e5a746234} 
+void Exam\+Tracker::\+record (\begin{DoxyParamCaption}\item[{int}]{time}{, }\item[{int}]{score}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Registra un puntaje en un tiempo dado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & Tiempo del registro. \\
+\hline
+{\em score} & Puntaje obtenido. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_exam_tracker_aca11b80e9c5c760409f9db8eabba45c7}\index{ExamTracker@{ExamTracker}!totalScore@{totalScore}}
+\index{totalScore@{totalScore}!ExamTracker@{ExamTracker}}
+\doxysubsubsection{\texorpdfstring{totalScore()}{totalScore()}}
+{\footnotesize\ttfamily \label{class_exam_tracker_aca11b80e9c5c760409f9db8eabba45c7} 
+long long Exam\+Tracker::\+total\+Score (\begin{DoxyParamCaption}\item[{int}]{start\+Time}{, }\item[{int}]{end\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Calcula el puntaje total en un rango de tiempo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+Time} & Tiempo inicial. \\
+\hline
+{\em end\+Time} & Tiempo final. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Suma de puntajes en el rango. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{exam__tracker_8cpp}{exam\+\_\+tracker.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,132 @@
+\doxysection{crypto\+\_\+square.\+cpp File Reference}
+\hypertarget{crypto__square_8cpp}{}\label{crypto__square_8cpp}\index{crypto\_square.cpp@{crypto\_square.cpp}}
+
+
+Implementa el cifrado tipo "{}crypto square"{}.  
+
+
+{\ttfamily \+\#include $<$iostream$>$}\newline
+{\ttfamily \+\#include $<$vector$>$}\newline
+{\ttfamily \+\#include $<$string$>$}\newline
+{\ttfamily \+\#include $<$algorithm$>$}\newline
+{\ttfamily \+\#include $<$cmath$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \doxymbox{\hyperlink{crypto__square_8cpp_a2f33fd7855355fdb7504c5a325be847a}{remove\+\_\+\+Spacee}} (string frase)
+\begin{DoxyCompactList}\small\item\em Elimina espacios de una frase. \end{DoxyCompactList}\item 
+vector$<$ string $>$ \doxymbox{\hyperlink{crypto__square_8cpp_a31845182b40e79dcbcd41618aae9ad47}{frase\+\_\+lista}} (int c, int r, string frase)
+\begin{DoxyCompactList}\small\item\em Divide la frase en filas y columnas. \end{DoxyCompactList}\item 
+vector$<$ string $>$ \doxymbox{\hyperlink{crypto__square_8cpp_af84123a50cb14382dca59a784d9ff472}{tamaño}} (string frase)
+\begin{DoxyCompactList}\small\item\em Calcula dimensiones adecuadas para el cifrado. \end{DoxyCompactList}\item 
+vector$<$ string $>$ \doxymbox{\hyperlink{crypto__square_8cpp_ae4197cb1f0511351ac6a84688268d2a5}{cryptoing}} (vector$<$ string $>$ lista)
+\begin{DoxyCompactList}\small\item\em Genera el cifrado reorganizando columnas. \end{DoxyCompactList}\item 
+string \doxymbox{\hyperlink{crypto__square_8cpp_a17124990157dd365ffdd71451ab592fe}{message}} (vector$<$ string $>$ crypto)
+\begin{DoxyCompactList}\small\item\em Construye el mensaje final cifrado. \end{DoxyCompactList}\item 
+\Hypertarget{crypto__square_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{crypto__square_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int {\bfseries main} ()
+\begin{DoxyCompactList}\small\item\em Main. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementa el cifrado tipo "{}crypto square"{}. 
+
+
+
+\label{doc-func-members}
+\Hypertarget{crypto__square_8cpp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{crypto__square_8cpp_ae4197cb1f0511351ac6a84688268d2a5}\index{crypto\_square.cpp@{crypto\_square.cpp}!cryptoing@{cryptoing}}
+\index{cryptoing@{cryptoing}!crypto\_square.cpp@{crypto\_square.cpp}}
+\doxysubsubsection{\texorpdfstring{cryptoing()}{cryptoing()}}
+{\footnotesize\ttfamily \label{crypto__square_8cpp_ae4197cb1f0511351ac6a84688268d2a5} 
+vector$<$ string $>$ cryptoing (\begin{DoxyParamCaption}\item[{vector$<$ string $>$}]{lista}{}\end{DoxyParamCaption})}
+
+
+
+Genera el cifrado reorganizando columnas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & Matriz de texto. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Texto cifrado en partes. 
+\end{DoxyReturn}
+\Hypertarget{crypto__square_8cpp_a31845182b40e79dcbcd41618aae9ad47}\index{crypto\_square.cpp@{crypto\_square.cpp}!frase\_lista@{frase\_lista}}
+\index{frase\_lista@{frase\_lista}!crypto\_square.cpp@{crypto\_square.cpp}}
+\doxysubsubsection{\texorpdfstring{frase\_lista()}{frase\_lista()}}
+{\footnotesize\ttfamily \label{crypto__square_8cpp_a31845182b40e79dcbcd41618aae9ad47} 
+vector$<$ string $>$ frase\+\_\+lista (\begin{DoxyParamCaption}\item[{int}]{c}{, }\item[{int}]{r}{, }\item[{string}]{frase}{}\end{DoxyParamCaption})}
+
+
+
+Divide la frase en filas y columnas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & Columnas. \\
+\hline
+{\em r} & Filas. \\
+\hline
+{\em frase} & Texto. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vector de strings organizado. 
+\end{DoxyReturn}
+\Hypertarget{crypto__square_8cpp_a17124990157dd365ffdd71451ab592fe}\index{crypto\_square.cpp@{crypto\_square.cpp}!message@{message}}
+\index{message@{message}!crypto\_square.cpp@{crypto\_square.cpp}}
+\doxysubsubsection{\texorpdfstring{message()}{message()}}
+{\footnotesize\ttfamily \label{crypto__square_8cpp_a17124990157dd365ffdd71451ab592fe} 
+string message (\begin{DoxyParamCaption}\item[{vector$<$ string $>$}]{crypto}{}\end{DoxyParamCaption})}
+
+
+
+Construye el mensaje final cifrado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em crypto} & Vector cifrado. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String final. 
+\end{DoxyReturn}
+\Hypertarget{crypto__square_8cpp_a2f33fd7855355fdb7504c5a325be847a}\index{crypto\_square.cpp@{crypto\_square.cpp}!remove\_Spacee@{remove\_Spacee}}
+\index{remove\_Spacee@{remove\_Spacee}!crypto\_square.cpp@{crypto\_square.cpp}}
+\doxysubsubsection{\texorpdfstring{remove\_Spacee()}{remove\_Spacee()}}
+{\footnotesize\ttfamily \label{crypto__square_8cpp_a2f33fd7855355fdb7504c5a325be847a} 
+string remove\+\_\+\+Spacee (\begin{DoxyParamCaption}\item[{string}]{frase}{}\end{DoxyParamCaption})}
+
+
+
+Elimina espacios de una frase. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em frase} & Texto original. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Texto sin espacios. 
+\end{DoxyReturn}
+\Hypertarget{crypto__square_8cpp_af84123a50cb14382dca59a784d9ff472}\index{crypto\_square.cpp@{crypto\_square.cpp}!tamaño@{tamaño}}
+\index{tamaño@{tamaño}!crypto\_square.cpp@{crypto\_square.cpp}}
+\doxysubsubsection{\texorpdfstring{tamaño()}{tamaño()}}
+{\footnotesize\ttfamily \label{crypto__square_8cpp_af84123a50cb14382dca59a784d9ff472} 
+vector$<$ string $>$ tamaño (\begin{DoxyParamCaption}\item[{string}]{frase}{}\end{DoxyParamCaption})}
+
+
+
+Calcula dimensiones adecuadas para el cifrado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em frase} & Texto. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Matriz representada como vector. 
+\end{DoxyReturn}
