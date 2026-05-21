@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_HealthTracker_FILE /Users/Miguel/Documents/EscuelaIng cosas/ALSE/HealthTracker_FIXED/build/Qt_6_11_1_for_macOS-Debug/HealthTracker)
+set(__QT_DEPLOY_TARGET_HealthTracker_TYPE EXECUTABLE)

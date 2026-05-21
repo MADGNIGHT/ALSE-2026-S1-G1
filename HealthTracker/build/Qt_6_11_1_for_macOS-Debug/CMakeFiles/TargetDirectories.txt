@@ -1,0 +1,9 @@
+/Users/Miguel/Documents/EscuelaIng cosas/ALSE/HealthTracker_FIXED/build/Qt_6_11_1_for_macOS-Debug/CMakeFiles/HealthTracker.dir
+/Users/Miguel/Documents/EscuelaIng cosas/ALSE/HealthTracker_FIXED/build/Qt_6_11_1_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/Miguel/Documents/EscuelaIng cosas/ALSE/HealthTracker_FIXED/build/Qt_6_11_1_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/Miguel/Documents/EscuelaIng cosas/ALSE/HealthTracker_FIXED/build/Qt_6_11_1_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Users/Miguel/Documents/EscuelaIng cosas/ALSE/HealthTracker_FIXED/build/Qt_6_11_1_for_macOS-Debug/CMakeFiles/install.dir
+/Users/Miguel/Documents/EscuelaIng cosas/ALSE/HealthTracker_FIXED/build/Qt_6_11_1_for_macOS-Debug/CMakeFiles/install/local.dir
+/Users/Miguel/Documents/EscuelaIng cosas/ALSE/HealthTracker_FIXED/build/Qt_6_11_1_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Users/Miguel/Documents/EscuelaIng cosas/ALSE/HealthTracker_FIXED/build/Qt_6_11_1_for_macOS-Debug/CMakeFiles/HealthTracker_autogen_timestamp_deps.dir
+/Users/Miguel/Documents/EscuelaIng cosas/ALSE/HealthTracker_FIXED/build/Qt_6_11_1_for_macOS-Debug/CMakeFiles/HealthTracker_autogen.dir
